@@ -1,0 +1,13 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="device_gesture_event" id=",@xkBp*f9j{sNNNh+=0m" x="212" y="300"><field name="NAME">Gesture.TiltRight</field><statement name="HANDLER"><block type="device_plot_brightness" id="W1SPsqWxXyt2u_#{VdND"><value name="x"><shadow type="math_number_minmax" id="v,FsF$9=/)lh_3$aqx8#"><mutation min="0" max="4" label="X" precision="1"/><field name="SLIDER">4</field></shadow></value><value name="y"><shadow type="math_number_minmax" id="j@IiV4VP%**opL6/pDUf"><mutation min="0" max="4" label="Y" precision="1"/><field name="SLIDER">4</field></shadow></value><value name="brightness"><shadow type="math_number_minmax" id="pv!W6By%UM)*l0hP(p|q"><mutation min="0" max="255" label="Brightness" precision="0"/><field name="SLIDER">255</field></shadow></value><next><block type="device_show_leds" id="HGkkKgLY=Do5;pzqBt@5"><field name="LEDS">`
+        # . . . # 
+        # . # . # 
+        . # # # . 
+        # . # . # 
+        # . . . #
+        `</field></block></next></block></statement></block><block type="input_on_sound" id="`eBw9}5V{IW+t|lcG?b5" x="556" y="420"><field name="sound">DetectedSound.Quiet</field><statement name="HANDLER"><block type="device_led_enable" id=",`#lUeRU)@zhA*,UUuRg"><value name="on"><shadow type="logic_boolean" id="+B!:,i!MT^514w1H^D=y"><field name="BOOL">TRUE</field></shadow></value><next><block type="device_show_leds" id="G_Jb$bK$bv@vha_.rKWu"><field name="LEDS">`
+        # # . # # 
+        . . # . . 
+        . # . # . 
+        . . # . . 
+        # # . # #
+        `</field></block></next></block></statement></block></xml>
